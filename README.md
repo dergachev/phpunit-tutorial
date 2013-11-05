@@ -11,8 +11,8 @@ This repo shows how to create a composer package and write a test for it.
 curl -s http://getcomposer.org/installer | php
 #    creates ./composer.phar
 
-php composer.phar init  
-#    creates ./composer.json, interactively
+# php composer.phar init  
+#    creates ./composer.json, interactively (only needed to do this once!)
 #    use it to add dev-dependency on phpunit 3.7.*
 
 php composer.phar install --dev
