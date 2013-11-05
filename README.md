@@ -2,6 +2,9 @@
 
 This repo shows how to create a composer package and write a test for it.
 
+[![Build Status](https://travis-ci.org/dergachev/phpunit-tutorial.png)](https://travis-ci.org/dergachev/phpunit-tutorial)
+
+
 ## Install steps
 
 ```
