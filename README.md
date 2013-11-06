@@ -34,3 +34,33 @@ Composer:
 * http://getcomposer.org/doc/04-schema.md
 * http://stackoverflow.com/questions/13764309/how-to-use-phpunit-installed-from-composer
 
+
+## Travis steps 
+
+Required adding the following to README.md:
+
+```
+[![Build Status](https://travis-ci.org/dergachev/phpunit-tutorial.png)](https://travis-ci.org/dergachev/phpunit-tutorial)
+```
+
+And the following to .travis.yml:
+
+```
+language: php
+php:
+  - "5.5"
+  - "5.4"
+  - "5.3"
+```
+
+Then signed into https://travis-ci.org/profile , clicked "Sync" to pull in new
+github repo, and enabled travis on it.  The first build MUST BE TRIGGERED via
+git push.
+
+Resources:
+
+* https://travis-ci.org/dergachev/phpunit-tutorial/
+* http://about.travis-ci.org/docs/user/getting-started/
+* http://about.travis-ci.org/docs/user/languages/php/
+* http://about.travis-ci.org/docs/user/status-images/
+
